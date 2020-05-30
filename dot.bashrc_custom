@@ -1,12 +1,7 @@
 #!/bin/bash
 
-# Source global definitions
-if [ -f /etc/bashrc ]; then
-    . /etc/bashrc
-fi
-
-# If not running interactively, don't do anything
-[ -z "$PS1" ] && return
+# add following line to ~/.bashrc
+# . ~/.bashrc_custom
 
 # don't put duplicate lines in the history. See bash(1) for more options
 # ... or force ignoredups and ignorespace
