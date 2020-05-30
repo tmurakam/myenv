@@ -1,3 +1,3 @@
-# myenv
+# simple-dotfiles
 
 Custom dotfiles etc.
