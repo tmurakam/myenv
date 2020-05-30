@@ -1,0 +1,17 @@
+defencoding utf-8
+
+# prefix key
+escape ^j^j
+
+# do not show startup screen
+startup_message off
+
+# Auto detach
+autodetach on
+
+# Show date and screen list
+hardstatus alwayslastline "%{= rw} %H %{= wk}%-Lw%{= bw}%n%f* %t%{= wk}%+Lw %{= wk}%=%{= gk} %y/%m/%d %c "
+
+# Scroll
+defscrollback 10000
+termcapinfo xterm* ti@:te@
